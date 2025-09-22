@@ -4,4 +4,14 @@ version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "nicegui>=1.4.0",
+    "pyvisa>=1.14.0",
+    "pyvisa-py>=0.7.0",
+    "pymodbus>=3.6.0",
+    "asyncio-mqtt>=0.16.0",
+    "pandas>=2.0.0",
+    "numpy>=1.24.0",
+    "plotly>=5.17.0",
+    "pyserial>=3.5",
+]
